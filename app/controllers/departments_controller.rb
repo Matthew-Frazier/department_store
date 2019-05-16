@@ -2,7 +2,7 @@ class DepartmentsController < ApplicationController
   before_action :set_department, only: [:show, :edit, :update, :destroy]
 
   def index
-    @departments = Department.all
+    @departments = Department.all.order(:name)
   end
 
   def show

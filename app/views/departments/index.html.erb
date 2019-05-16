@@ -1,5 +1,7 @@
 <h1>Store Departments</h1>
+<hr>
 <%= link_to 'Create a new department', new_department_path %>
+<hr>
 <ul>
   <% @departments.each do |department| %>
     <li><%= link_to department.name, department %></li>

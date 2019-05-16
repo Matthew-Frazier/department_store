@@ -63,3 +63,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'awesome_print' # use ap
 gem 'table_print' #use tp
+gem 'materialize-sass', '~> 1.0'
